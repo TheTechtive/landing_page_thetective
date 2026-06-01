@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { useContent } from "../i18n";
+import { useContent } from "../context/i18n";
 import ConsultationSection from "../components/ConsultationSection";
 import { ArrowUpRight, Container, Reveal, SectionKicker } from "../components/ui";
 
@@ -98,7 +98,7 @@ function Clients() {
 
       <div className="marquee-mask group overflow-hidden">
         <div className="animate-marquee flex w-max items-center gap-4 pr-4 group-hover:[animation-play-state:paused]">
-          {loop.map((logo, i) => (
+          {loop.map((logo: any, i: any) => (
             <div
               key={`${logo.name}-${i}`}
               aria-hidden={i >= clients.logos.length}
@@ -135,7 +135,7 @@ function Capabilities() {
         </Reveal>
 
         <div className="mt-12 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
-          {capabilities.items.map((item, i) => (
+          {capabilities.items.map((item: any, i: any) => (
             <Reveal
               key={item.title}
               delay={(i % 3) * 80}
@@ -173,7 +173,7 @@ function WeAre() {
             </h2>
           </Reveal>
           <Reveal delay={120} className="space-y-5 lg:pt-3">
-            {weAre.paragraphs.map((p, i) => (
+            {weAre.paragraphs.map((p: any, i: any) => (
               <p key={i} className="text-[17px] leading-relaxed text-ink-700">
                 {p}
               </p>
@@ -201,7 +201,7 @@ function Assurance() {
         </Reveal>
 
         <div className="mt-12 grid gap-6 md:grid-cols-3">
-          {assurance.items.map((item, i) => (
+          {assurance.items.map((item: any, i: any) => (
             <Reveal
               key={item.title}
               delay={i * 100}

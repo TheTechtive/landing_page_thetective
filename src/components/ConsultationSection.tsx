@@ -1,4 +1,4 @@
-import { useContent } from "../i18n";
+import { useContent } from "../context/i18n";
 import { whatsappNumber } from "../data";
 import { Container, SectionKicker } from "./ui";
 

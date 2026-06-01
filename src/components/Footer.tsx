@@ -1,5 +1,5 @@
 ﻿import { Link } from "react-router-dom";
-import { useContent } from "../i18n";
+import { useContent } from "../context/i18n";
 import { Container, Logo } from "./ui";
 
 export default function Footer() {
@@ -16,13 +16,13 @@ export default function Footer() {
           </div>
 
           <div className="flex flex-col gap-12 sm:flex-row sm:gap-20">
-            {footer.columns.map((col) => (
+            {footer.columns.map((col: any) => (
               <div key={col.title}>
                 <h4 className="mb-4 text-[12px] font-medium uppercase tracking-[0.18em] text-ink-400">
                   {col.title}
                 </h4>
                 <ul className="space-y-2.5">
-                  {col.links.map((link) => (
+                  {col.links.map((link: any) => (
                     <li key={link.to}>
                       <Link
                         to={link.to}

@@ -1,6 +1,6 @@
 ﻿import { useEffect, useState } from "react";
 import { Link, useLocation } from "react-router-dom";
-import { useContent } from "../i18n";
+import { useContent } from "../context/i18n";
 import { Container, Logo } from "./ui";
 import LanguageSwitcher from "./LanguageSwitcher";
 
@@ -29,7 +29,7 @@ export default function Navbar() {
           <Logo />
 
           <nav className="hidden items-center gap-8 md:flex">
-            {nav.links.map((link) => {
+            {nav.links.map((link: any) => {
               const active =
                 link.to === pathname ||
                 (link.to === "/" && pathname === "/");
@@ -95,7 +95,7 @@ export default function Navbar() {
       >
         <Container>
           <nav className="flex flex-col gap-1 py-4">
-            {nav.links.map((link) => {
+            {nav.links.map((link: any) => {
               const active =
                 link.to === pathname ||
                 (link.to === "/" && pathname === "/");

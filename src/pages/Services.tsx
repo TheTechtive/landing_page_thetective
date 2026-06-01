@@ -1,6 +1,6 @@
 ﻿import { useState } from "react";
 import { Link } from "react-router-dom";
-import { useContent } from "../i18n";
+import { useContent } from "../context/i18n";
 import ConsultationSection from "../components/ConsultationSection";
 import { ArrowUpRight, Container, Reveal, SectionKicker } from "../components/ui";
 
@@ -25,7 +25,7 @@ function ServicesSection() {
         <Reveal delay={120} className="mt-12 grid gap-6 lg:grid-cols-[0.8fr_1.2fr]">
           {/* Tab list */}
           <div className="flex gap-2 overflow-x-auto pb-2 lg:flex-col lg:overflow-x-visible lg:pb-0 [&::-webkit-scrollbar]:hidden [-ms-overflow-style:none] [scrollbar-width:none]">
-            {services.tabs.map((tab, i) => {
+            {services.tabs.map((tab: any, i: any) => {
               const isActive = i === active;
               return (
                 <button
@@ -56,7 +56,7 @@ function ServicesSection() {
               {detail.description}
             </p>
             <div className="mt-7 flex flex-wrap gap-2.5">
-              {detail.tags.map((tag) => (
+              {detail.tags.map((tag: any) => (
                 <span
                   key={tag}
                   className="rounded-full bg-cream-200 px-3.5 py-1.5 text-[13px] font-medium text-ink-700"

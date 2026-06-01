@@ -1,7 +1,7 @@
 ﻿import { createContext, useContext, useEffect, useState } from "react";
 import type { ReactNode } from "react";
-import { content } from "./data";
-import type { Content, Lang } from "./data";
+import { content } from "../data";
+import type { Content, Lang } from "../data";
 
 type LangContextValue = {
   lang: Lang;
@@ -30,7 +30,7 @@ export function LanguageProvider({ children }: { children: ReactNode }) {
     document.documentElement.lang = lang;
   }, [lang]);
 
-  const toggle = () => setLang((prev) => (prev === "en" ? "id" : "en"));
+  const toggle = () => setLang((prev: any) => (prev === "en" ? "id" : "en"));
 
   return (
     <LangContext.Provider value={{ lang, setLang, toggle }}>

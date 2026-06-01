@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { useContent } from "../i18n";
+import { useContent } from "../context/i18n";
 import ConsultationSection from "../components/ConsultationSection";
 import { ArrowUpRight, Container, Reveal, SectionKicker } from "../components/ui";
 
@@ -55,7 +55,7 @@ function Products() {
         </Reveal>
 
         <div className="mt-16 space-y-20 sm:space-y-28">
-          {work.products.map((product, i) => {
+          {work.products.map((product: any, i: any) => {
             const flip = i % 2 === 1;
             return (
               <Reveal
@@ -81,7 +81,7 @@ function Products() {
                   </p>
 
                   <ul className="mt-7 grid gap-3 sm:grid-cols-2">
-                    {product.features.map((feature) => (
+                    {product.features.map((feature: any) => (
                       <li
                         key={feature}
                         className="flex items-start gap-2.5 text-[15px] font-medium text-ink-700"

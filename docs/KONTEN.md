@@ -151,40 +151,40 @@ Tambah sebanyak yang Anda mau (idealnya 4–8, lintas kapabilitas).
 - Judul: ⟪ ⟫
 - Kategori: ⟪ ⟫
 - Hasil: ⟪ ⟫
-- Gambar: ⟪![alt text](image.png) ⟫
+- Gambar: ⟪![alt text](../public/assets/images/image.png) ⟫
 
 ### Proyek 3
 - Judul: ⟪ ⟫
 - Kategori: ⟪ ⟫
 - Hasil: ⟪ ⟫
-- Gambar: ⟪![alt text](image-1.png) ⟫
+- Gambar: ⟪![alt text](../public/assets/images/image-1.png) ⟫
 
 ### Proyek 4
 - Judul: ⟪ ⟫
 - Kategori: ⟪ ⟫
 - Hasil: ⟪ ⟫
-- Gambar: ⟪![alt text](image-2.png) ⟫
+- Gambar: ⟪![alt text](../public/assets/images/image-2.png) ⟫
 
-![alt text](image-3.png)
+![alt text](../public/assets/images/image-3.png)
 
 
-![alt text](image-4.png)
+![alt text](../public/assets/images/image-4.png)
 
-![alt text](image-5.png)
+![alt text](../public/assets/images/image-5.png)
 
-![alt text](image-6.png)
+![alt text](../public/assets/images/image-6.png)
 
-![alt text](image-7.png)
+![alt text](../public/assets/images/image-7.png)
 
-![alt text](image-8.png)
+![alt text](../public/assets/images/image-8.png)
 
-![alt text](image-9.png)
+![alt text](../public/assets/images/image-9.png)
 
-![alt text](image-10.png)
+![alt text](../public/assets/images/image-10.png)
 
-![alt text](image-11.png)
+![alt text](../public/assets/images/image-11.png)
 
-![alt text](image-12.png)
+![alt text](../public/assets/images/image-12.png)
 (salin blok di atas untuk proyek tambahan)
 
 ---
@@ -234,14 +234,14 @@ Tambah sebanyak yang Anda mau (idealnya 4–8, lintas kapabilitas).
 - Teks paling bawah (moto): ⟪ Kualitas, bukan kuantitas. ⟫
 
 
-![alt text](image-13.png)
-![alt text](image-14.png)
-![alt text](image-15.png)
-![alt text](image-16.png)
-![alt text](image-17.png)
-![alt text](image-18.png)
-![alt text](image-19.png)
-![alt text](image-20.png)
-![alt text](image-21.png)
-![alt text](image-22.png)
-![alt text](image-23.png)
+![alt text](../public/assets/images/image-13.png)
+![alt text](../public/assets/images/image-14.png)
+![alt text](../public/assets/images/image-15.png)
+![alt text](../public/assets/images/image-16.png)
+![alt text](../public/assets/images/image-17.png)
+![alt text](../public/assets/images/image-18.png)
+![alt text](../public/assets/images/image-19.png)
+![alt text](../public/assets/images/image-20.png)
+![alt text](../public/assets/images/image-21.png)
+![alt text](../public/assets/images/image-22.png)
+![alt text](../public/assets/images/image-23.png)

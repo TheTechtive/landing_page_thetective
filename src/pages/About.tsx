@@ -1,4 +1,4 @@
-﻿import { useContent } from "../i18n";
+﻿import { useContent } from "../context/i18n";
 import ConsultationSection from "../components/ConsultationSection";
 import { Container, Reveal, SectionKicker } from "../components/ui";
 
@@ -50,7 +50,7 @@ function Story() {
             </h2>
           </Reveal>
           <Reveal delay={120} className="space-y-5 lg:pt-3">
-            {story.paragraphs.map((p, i) => (
+            {story.paragraphs.map((p: any, i: any) => (
               <p key={i} className="text-[17px] leading-relaxed text-ink-700">
                 {p}
               </p>
@@ -78,7 +78,7 @@ function Principles() {
         </Reveal>
 
         <div className="mt-12 grid gap-6 md:grid-cols-3">
-          {principles.items.map((item, i) => (
+          {principles.items.map((item: any, i: any) => (
             <Reveal
               key={item.title}
               delay={i * 100}

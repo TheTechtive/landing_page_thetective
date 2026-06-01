@@ -1,4 +1,4 @@
-﻿import { useLang } from "../i18n";
+﻿import { useLang } from "../context/i18n";
 import type { Lang } from "../data";
 
 const OPTIONS: { value: Lang; label: string }[] = [
@@ -31,7 +31,7 @@ export default function LanguageSwitcher({
         className="absolute top-0.5 bottom-0.5 left-0.5 w-[calc(50%-2px)] rounded-full bg-ink transition-transform duration-300 ease-out"
         style={{ transform: `translateX(${activeIndex * 100}%)` }}
       />
-      {OPTIONS.map((opt) => {
+      {OPTIONS.map((opt: any) => {
         const active = opt.value === lang;
         return (
           <button
