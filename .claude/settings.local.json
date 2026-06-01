@@ -1,0 +1,26 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__plugin_figma_figma__get_metadata",
+      "Bash(python -c \"import json; d=json.load\\(open\\('mcp-plugin_figma_figma-get_metadata-1780221888342.txt', encoding='utf-8'\\)\\); print\\(d[0]['text'][:4000]\\)\")",
+      "mcp__plugin_figma_figma__get_screenshot",
+      "Bash(curl -s -o screen_createpost.png \"https://www.figma.com/api/mcp/asset/d9ad74c7-0d60-47c0-a655-3fc2bd1d90bc\")",
+      "Bash(curl -s -o screen_ds1.png \"https://www.figma.com/api/mcp/asset/31987a8a-617b-4a9b-bdc5-0efd645f81c5\")",
+      "Bash(curl -s -o ds2.png \"https://www.figma.com/api/mcp/asset/844c6028-6bfc-48a8-8487-4cc72b2afa7c\")",
+      "Bash(curl -s -o ds3.png \"https://www.figma.com/api/mcp/asset/3376fdb6-ee0d-4785-9189-351254ce957f\")",
+      "Bash(curl -s -o ds4.png \"https://www.figma.com/api/mcp/asset/4c149f8f-b6d3-4312-b98b-05db11f92735\")",
+      "mcp__plugin_figma_figma__get_variable_defs",
+      "mcp__plugin_figma_figma__get_design_context",
+      "Bash(python -c ' *)",
+      "Bash(python3)",
+      "PowerShell(npm *)",
+      "Bash(npx tsc *)",
+      "Bash(echo \"EXIT:$?\")",
+      "Bash(npx vite *)",
+      "WebFetch(domain:agencycaesar.net)",
+      "Bash(ls -la image*.png)",
+      "Bash(find . -maxdepth 2 -name \"image*.png\" -not -path \"./node_modules/*\")",
+      "PowerShell(Copy-Item *)"
+    ]
+  }
+}

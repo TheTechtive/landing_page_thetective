@@ -1,0 +1,9 @@
+<svg preserveAspectRatio="none" width="100%" height="100%" overflow="visible" style="display: block;" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Icon">
+<path id="Vector" d="M14 3.5C7.875 8.75 5.25 14 14 24.5C22.75 14 20.125 8.75 14 3.5Z" fill="var(--fill-0, #16A34A)"/>
+<g id="Vector_2">
+<path d="M14 10.5V22.75Z" fill="var(--fill-0, black)"/>
+<path d="M14 10.5V22.75" stroke="var(--stroke-0, white)" stroke-width="1.75"/>
+</g>
+</g>
+</svg>
