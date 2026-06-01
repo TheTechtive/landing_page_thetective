@@ -55,4 +55,4 @@ are captured as CSS custom properties in `src/index.css`):
 
 - Cream background `#fafaf7`, ink `#0a0a0a`
 - Accent blue `#2563eb` (highlighted words, links, focus states)
-- Neutral text greys `#404040` → `#a1a1a1`
+- Neutral text grey `#404040` → `#a1a1a1`
