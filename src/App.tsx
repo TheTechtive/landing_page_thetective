@@ -5,7 +5,7 @@ import Footer from "./components/Footer";
 import Home from "./pages/Home";
 import About from "./pages/About";
 import Services from "./pages/Services";
-import Work from "./pages/Work";
+import Products from "./pages/Products";
 import Contact from "./pages/Contact";
 
 /** Scroll to top on route change, or to the hash target when one is present. */
@@ -36,7 +36,7 @@ export default function App() {
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/services" element={<Services />} />
-          <Route path="/work" element={<Work />} />
+          <Route path="/products" element={<Products />} />
           <Route path="/contact" element={<Contact />} />
         </Routes>
       </main>

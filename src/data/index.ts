@@ -36,12 +36,12 @@ const clientLogos = [
 export const content = {
   en: {
     nav: {
-      brand: "thetective",
+      brand: "thetechtive",
       links: [
         { label: "Home", to: "/" },
         { label: "About", to: "/about" },
         { label: "Services", to: "/services" },
-        { label: "Work", to: "/work" },
+        { label: "Products", to: "/Products" },
       ],
       cta: { label: "Contact", to: "/contact" },
     },
@@ -54,27 +54,27 @@ export const content = {
           links: [
             { label: "About", to: "/about" },
             { label: "Services", to: "/services" },
-            { label: "Work", to: "/work" },
+            { label: "Products", to: "/products" },
             { label: "Contact", to: "/contact" },
           ],
         },
       ],
       contactTitle: "Get in touch",
-      email: "halo@thetective.id",
+      email: "thetechtive98@gmail.com",
       phone: "+62 882-1813-6929",
       address: "Bandung, Indonesia",
-      legal: "PT Thetective Karya Digital · NIB 1000000008361256",
-      location: "© Thetective",
+      legal: "PT Thetechtive Karya Digital · NIB 1000000008361256",
+      location: "© Thetechtive",
       bottom: "Software, built to last.",
     },
 
     consultation: {
-      kicker: "(06) Get started",
+      kicker: "Get started",
       heading: "Let's talk.",
       subtitle:
         "No forms, no waiting. Message us on WhatsApp and we'll take it from there.",
       button: "Chat on WhatsApp",
-      waMessage: "Hi Thetective, I'd like to discuss a project.",
+      waMessage: "Hi Thetechtive, I'd like to discuss a project.",
     },
 
     hero: {
@@ -84,7 +84,7 @@ export const content = {
       subtitle:
         "A software house building web, mobile, AI, IoT, and ERP. From the first sketch to a system running in production.",
       ctaPrimary: { label: "Start a project", to: "/contact" },
-      ctaSecondary: { label: "See our work", to: "/work" },
+      ctaSecondary: { label: "See our products", to: "/products" },
     },
 
     capabilities: {
@@ -140,7 +140,7 @@ export const content = {
     },
 
     services: {
-      kicker: "(04) What we do",
+      kicker: "(01) What we do",
       heading: "What we build.",
       subtitle:
         "What we take on, from the first sketch to a system running in production.",
@@ -199,7 +199,7 @@ export const content = {
     },
 
     work: {
-      kicker: "(05) Our products",
+      kicker: "(01) Our products",
       headingLead: "Products we ",
       headingHighlight: "build",
       headingTail: " and run.",
@@ -236,12 +236,12 @@ export const content = {
     },
 
     aboutHero: {
-      badge: "About Thetective",
+      badge: "About Thetechtive",
       headingLead: "A team built for ",
       headingHighlight: "large",
       headingTail: " systems.",
       subtitle:
-        "Thetective is an Indonesian software house. We design and build web, mobile, AI, IoT, and ERP systems, from the first sketch to production.",
+        "Thetechtive is an Indonesian software house. We design and build web, mobile, AI, IoT, and ERP systems, from the first sketch to production.",
       location: "Bandung, Indonesia",
       image: "/assets/about-office.jpg",
     },
@@ -284,12 +284,12 @@ export const content = {
 
   id: {
     nav: {
-      brand: "thetective",
+      brand: "thetechtive",
       links: [
         { label: "Beranda", to: "/" },
         { label: "Tentang", to: "/about" },
         { label: "Layanan", to: "/services" },
-        { label: "Karya", to: "/work" },
+        { label: "Karya", to: "/products" },
       ],
       cta: { label: "Kontak", to: "/contact" },
     },
@@ -302,17 +302,17 @@ export const content = {
           links: [
             { label: "Tentang", to: "/about" },
             { label: "Layanan", to: "/services" },
-            { label: "Karya", to: "/work" },
+            { label: "Karya", to: "/products" },
             { label: "Kontak", to: "/contact" },
           ],
         },
       ],
       contactTitle: "Hubungi kami",
-      email: "halo@thetective.id",
+      email: "thetechtive98@gmail.com",
       phone: "+62 882-1813-6929",
       address: "Bandung, Indonesia",
-      legal: "PT Thetective Karya Digital · NIB 1000000008361256",
-      location: "© Thetective",
+      legal: "PT Thetechtive Karya Digital · NIB 1000000008361256",
+      location: "© Thetechtive",
       bottom: "Perangkat lunak yang dibangun untuk bertahan.",
     },
 
@@ -322,7 +322,7 @@ export const content = {
       subtitle:
         "Tanpa formulir, tanpa menunggu. Chat kami di WhatsApp dan biar kami yang mengurus sisanya.",
       button: "Chat via WhatsApp",
-      waMessage: "Halo Thetective, saya ingin berdiskusi tentang sebuah proyek.",
+      waMessage: "Halo Thetechtive, saya ingin berdiskusi tentang sebuah proyek.",
     },
 
     hero: {
@@ -332,7 +332,7 @@ export const content = {
       subtitle:
         "Software house yang membangun web, mobile, AI, IoT, dan ERP. Dari sketsa pertama hingga sistem yang berjalan di produksi.",
       ctaPrimary: { label: "Mulai proyek", to: "/contact" },
-      ctaSecondary: { label: "Lihat karya kami", to: "/work" },
+      ctaSecondary: { label: "Lihat karya kami", to: "/products" },
     },
 
     capabilities: {
@@ -484,12 +484,12 @@ export const content = {
     },
 
     aboutHero: {
-      badge: "Tentang Thetective",
+      badge: "Tentang Thetechtive",
       headingLead: "Tim yang dibangun untuk sistem ",
       headingHighlight: "besar",
       headingTail: ".",
       subtitle:
-        "Thetective adalah software house asal Indonesia. Kami merancang dan membangun sistem web, mobile, AI, IoT, dan ERP, dari sketsa pertama hingga produksi.",
+        "Thetechtive adalah software house asal Indonesia. Kami merancang dan membangun sistem web, mobile, AI, IoT, dan ERP, dari sketsa pertama hingga produksi.",
       location: "Bandung, Indonesia",
       image: "/assets/about-office.jpg",
     },

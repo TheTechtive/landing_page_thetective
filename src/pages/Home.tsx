@@ -66,11 +66,11 @@ function Hero() {
               <div className="pointer-events-none absolute -top-16 left-1/2 h-64 w-64 -translate-x-1/2 rounded-full bg-accent/10 blur-[90px]" />
               <img
                 src="/assets/logo.png"
-                alt="Thetective"
+                alt="Thetechtive"
                 className="relative h-28 w-28 object-contain"
               />
               <span className="relative mt-6 text-[30px] font-bold tracking-tight text-ink">
-                thetective
+                thetechtive
               </span>
               <p className="relative mt-2 text-[13px] font-semibold uppercase tracking-[0.14em] text-ink-500">
                 {hero.badge}

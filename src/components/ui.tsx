@@ -115,11 +115,10 @@ export function Logo({
     <Link to={to} className="flex items-center gap-2.5">
       <img src="/assets/logo.png" alt="" className="h-7 w-7" />
       <span
-        className={`text-[18px] font-bold tracking-tight ${
-          light ? "text-cream" : "text-ink"
-        }`}
+        className={`text-[18px] font-bold tracking-tight ${light ? "text-cream" : "text-ink"
+          }`}
       >
-        thetective
+        thetechtive
       </span>
     </Link>
   );
